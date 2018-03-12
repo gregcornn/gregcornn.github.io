@@ -109,7 +109,7 @@ a.footerLink:hover {
 }
 a.footerLink:link, a.footerLink:visited {
 	color: #00004d;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 #footer{
