@@ -16,12 +16,7 @@
 	<div id = "textblock"><center><br>Below is the form to sign up for the class. Payment is $200 for the session (4 days), and a $100 deposit is required to reserve your spot. If you have any questions, please do not hesitate to contact me at: <a class = "footerLink" href = "mailto:howtodj@gregcorn.com">howtodj@gregcorn.com</a>
 	</div></center><br>
 	<div id = "form">
-	<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-	  <br><input type= "hidden" name="cmd" value="_xclick">
-	  <input type= "hidden" name="business" value="gcorn2009@gmail.com">
-	  <input type= "hidden" name="item_name" value="Class_Registration_Deposit">
-	  <input type= "hidden" name="item_number" value="001">
-	  <input type= "hidden" name="amount" value="100.00">
+	<form id = "register" action="https://formspree.io/registersubmissions@gregcorn.com" method = "POST"enctype="multipart/form-data" name="EmailTestForm">
 	  Parent/Guardian Name:<br>
 	  <input id = "name" type= "text" name="parent_first_name" value="" placeholder = "First Name" required>
 	  <input id = "name" type= "text" name="parent_last_name" value="" placeholder = "Last Name" required><br><br>
@@ -37,7 +32,7 @@
 	  <input id = "name" type= "number" name="grade_level" value="" placeholder = "Grade" required>
 	  <input id = "name" type= "text" name="school" value="" placeholder = "School" required><br><br>
 	  Payment: $100 deposit to reserve your spot.<br>Total cost (to be paid later) is $200. <br>
-	  <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" alt="PayPal - The safer, easier way to pay online">
+	  <button type="submit"id="submit-form">Submit</button>
 	</form></div>
 	<br><br><br><br>
 	<div id = "footer"></div>
