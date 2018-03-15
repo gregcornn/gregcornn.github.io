@@ -65,11 +65,11 @@ img {
 }
 
 a.home:link, a.home:visited{color: #4c1130;text-decoration:none;}
-a.home:hover{color: #a6266a;text-decoration:none;}
+a.home:hover{color: #a6266a;text-decoration:none;transition:0.5s;}
 a.about:link, a.about:visited{color: #20124d;text-decoration:none;}
-a.about:hover{color: #4427a5;text-decoration:none;}
+a.about:hover{color: #4427a5;text-decoration:none;transition:0.5s;}
 a.register:link, a.register:visited{color: #073763;text-decoration:none;}
-a.register:hover{color: #0d69bf;text-decoration:none;}
+a.register:hover{color: #0d69bf;text-decoration:none;transition:0.5s;}
 
 #spaced {
 	color: rgba(000,000,000,000);
