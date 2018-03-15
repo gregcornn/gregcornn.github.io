@@ -157,7 +157,18 @@ a.footerLink:link, a.footerLink:visited {
 	border: none;
 	box-shadow:  2px 2px 15px rgba(0, 0, 0, 0.2),  -2px -2px 15px rgba(0, 0, 0, 0.19);
 }
-
+#name:focus {
+	box-shadow:  2px 2px 25px rgba(0, 0, 0, 0.25),  -2px -2px 25px rgba(0, 0, 0, 0.24);
+	transition: 0.5s;
+}
+#cell:focus {
+	box-shadow:  2px 2px 25px rgba(0, 0, 0, 0.25),  -2px -2px 25px rgba(0, 0, 0, 0.24);
+	transition: 0.5s;
+}
+#cell2:focus {
+	box-shadow:  2px 2px 25px rgba(0, 0, 0, 0.25),  -2px -2px 25px rgba(0, 0, 0, 0.24);
+	transition: 0.5s;
+}
 
 #form{
 	padding-left: 22%;
@@ -168,6 +179,7 @@ a.footerLink:link, a.footerLink:visited {
 }
 
 .submitbutton {
+    border-radius: 2px;
     position: relative;
     background: linear-gradient(to top right, #ead1dc, #d9d2e9, #cfe2f3);
     border: none;
@@ -186,8 +198,9 @@ a.footerLink:link, a.footerLink:visited {
     filter: saturate(0%);
 }
 .submitbutton:hover{
+	border-radius: 9px;
 	box-shadow:  2px 2px 40px rgba(0, 0, 0, 0.2),  -2px -2px 40px rgba(0, 0, 0, 0.19);
-	font-size: 15px;
+	font-size: 14px;
 	filter: brightness(105%);
 	filter: saturate(290%)
 }
