@@ -13,12 +13,17 @@
 		<a class = "about" href = "about.html">ABOUT</a> - 
 		<a class = "register" href = "register.html">REGISTER</a>
 	</h2>
-	<div id = "textblock"><center><br>Below is the form to sign up for the class. Payment is $200 for the session (4 days), and a $100 deposit is required to reserve your spot. If you have any questions, please do not hesitate to contact me at: <a class = "footerLink" href = "mailto:howtodj@gregcorn.com">howtodj@gregcorn.com</a>
-	</div></center><br>
+	<div id = "textblock"><center><br>Below is the form to sign up for the class. Payment is $200 for the session (4 days). If you would like to pay beforehand, please submit the register form and use the PayPal "Buy Now" button below that. The steps are also written below. If you have any questions, please do not hesitate to contact me at: <a class = "footerLink" href = "mailto:howtodj@gregcorn.com">howtodj@gregcorn.com</a></center></div><br>
+	<div id = "textblock">&emsp;&emsp;<u><b>How to sign up for the class:</b></u>
+		<ol>
+			<li>Fill out and submit the register form</li>
+			<li>If you would like to pay ahead of time, click <br>the "Buy Now" button to pay for the class with PayPal</li>
+		</ol>
+	</div><br>
 	<div id = "form">
 	<form id = "register" action="https://formspree.io/registersubmissions@gregcorn.com" method = "POST"enctype="multipart/form-data" name="EmailTestForm">
 	  Parent/Guardian Name:<br>
-	  <input id = "name" type= "text" name="parent_first_name" value="" placeholder = "First Name" required>
+	  <input id = "name" type= "text" name="parent_first_name" vaclue="" placeholder = "First Name" required>
 	  <input id = "name" type= "text" name="parent_last_name" value="" placeholder = "Last Name" required><br><br>
 	  Parent/Guardian Email & Cell Phone Number:<br>
 	  <input id = "name" type= "email" name="parent_email" value="" placeholder = "person@example.com" required>&nbsp;&nbsp;
@@ -31,9 +36,29 @@
 	  Student Grade and School:<br>
 	  <input id = "name" type= "number" name="grade_level" value="" placeholder = "Grade" required>
 	  <input id = "name" type= "text" name="school" value="" placeholder = "School" required><br><br>
-	  Payment: $100 deposit to reserve your spot.<br>Total cost (to be paid later) is $200. <br>
 	  <button type="submit"id="submit-form">Submit</button>
 	</form></div>
+	<center><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+		  <!-- Identify your business so that you can collect the payments. -->
+		  <input type="hidden" name="business" value="gcorn2009@gmail.com">
+
+		  <!-- Specify a Buy Now button. -->
+		  <input type="hidden" name="cmd" value="_xclick">
+		  
+		  <!-- Specify details about the item that buyers will purchase. -->
+		  <input type="hidden" name="item_name" value="Full Class Register Fee">
+		  <input type="hidden" name="amount" value="200.00">
+		  <input type="hidden" name="currency_code" value="USD">
+
+		  <!-- Display the payment button. -->
+		  <input type="image" name="submit" border="0"
+		  src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif"
+		  alt="Buy Now">
+		  <img alt="" border="0" width="1" height="1"
+		  src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+
+	</form></center>
 	<br><br><br><br>
 	<div id = "footer"></div>
 	<footer>

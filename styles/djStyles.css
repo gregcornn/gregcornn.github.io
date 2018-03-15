@@ -123,6 +123,7 @@ a.footerLink:link, a.footerLink:visited {
 	bottom: 0px;
 }
 #name{
+	border-radius: 6px;
 	width: 200px;
 	padding: 6px;
 	font-family: 'Quattrocento Sans', sans-serif;
@@ -132,7 +133,9 @@ a.footerLink:link, a.footerLink:visited {
 	border: none;
 	box-shadow:  2px 2px 15px rgba(0, 0, 0, 0.2),  -2px -2px 15px rgba(0, 0, 0, 0.19);
 }
+
 #cell{
+	border-radius: 6px;
 	width: 40px;
 	padding: 6px;
 	font-family: 'Quattrocento Sans', sans-serif;
@@ -143,6 +146,7 @@ a.footerLink:link, a.footerLink:visited {
 	box-shadow:  2px 2px 15px rgba(0, 0, 0, 0.2),  -2px -2px 15px rgba(0, 0, 0, 0.19);
 }
 #cell2{
+	border-radius: 6px;
 	width: 50px;
 	padding: 6px;
 	font-family: 'Quattrocento Sans', sans-serif;
@@ -158,6 +162,6 @@ a.footerLink:link, a.footerLink:visited {
 	padding-left: 22%;
 	text-align: left;
 	width: 800px;
-	height: 800px;
+	height: 550px;
 	margin: auto;
 }
