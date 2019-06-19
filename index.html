@@ -1,79 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>How To DJ: A Class by Greg Corn</title>
-	<link href="https://fonts.googleapis.com/css?family=Monoton|Quattrocento+Sans" rel="stylesheet">
-	<link rel="shortcut icon" href="images/vinylbullet.png">
-	<link rel="stylesheet" type="text/css" href="styles/djStyles.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:900|Quattrocento" rel="stylesheet">
 </head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <body>
-	<h1>HOW<span id = "spaced">_</span>TO<span id = "spaced">_</span>DJ</h1>
-	<h2>
-		<a class = "home" href = "index.html">HOME</a> - 
-		<a class = "about" href = "pages/about.html">ABOUT</a> - 
-		<a class = "register" href = "pages/register.html">REGISTER</a>
-	</h2>
-	<center><br>Looking for a great way to use Spring Break to learn a new skill? DJ Greg, a Los Altos High School Student, is offering a new course <br>on how to hone your music making skills and get a crowd moving!</center>
-		<ul id = "instructions">
-  			<li>Date: April 9-12 from 9:00am to 12:00pm - Located at my home in Los Altos</li>
-  			<li>Cost: $200 for the week</li>
-  			<li>Students: Grades 5-7; Class size limited to 6 students</li>
-  			<li>Register: sign up <a href = "pages/register.html">here</a> or using the link above</li>
-  			<li>Contact: <a class = "footerLink" href = "mailto:howtodj@gregcorn.com">howtodj@gregcorn.com</a></li>
-		</ul>
-	<center><br>This course will be split up into three main categories: Content, Audience, and Business. <br>All three categories are explained below:</center>
-	<br><br><br><br>
-	<table>
-		<col width="300">
-		<col width="300">
-		<col width="300">
-		<tr>
-			<th id = "contenth"><span id="tblh">CONTENT</span></th>
-			<th id = "audienceh"><span id="tblh">AUDIENCE</span></th>
-			<th id = "businessh"><span id="tblh">BUSINESS</span></th>
-		</tr>
-		<tr>
-			<td id = "contentrow">Every DJ needs to know how to get good music and mix it well. During this part of the course, students will learn how to mix music and add effects to make it sound good!
-			<br><br>Specific techniques include:
-			<ul id = "bullet2">
-				<li>Song Structure</li>
-				<li>Digital DJing Technology</li>
-				<li>Music Sourcing</li>
-				<li>Filtering</li>
-				<li>Music Theory</li>
-				<li>Beatmatching</li>
-				<li>Scratching</li>
-			</ul>
-			Students will learn to use VirtualDJ and use a Numark DJ controller. They will also learn how to set up a Behringer PA System and mixer with microphone. 
-		</td>
-			<td id = "audiencerow">The best DJs know how to tailor their music selection and mixing to their audience. In this section, students will learn how to figure out what the audience will enjoy, and how to best meet their needs.
-			Specific techniques include:
-				<ul id = "bullet2">
-					<li>Party Structure</li>
-					<li>Filtering</li>
-					<li>Set list</li>
-					<li>Requests</li>
-					<li>Motivators</li>
-					<li>Stage setup</li>
-				</ul><br><br><br><br><br><br>
-		</td>
-			<td id = "businessrow">Knowing how to DJ will only take you so far. Students need to learn how to promote their brand and make money off of their skills! Topics discussed include:
-				<ul id = "bullet3">
-					<li>Maintaining your brand as a DJ</li>
-					<li>Pricing and forms of payment</li>
-					<li>Communication with planners</li>
-					<li>Website Promotion</li>
-					<li>Social Media Promotion</li>
-				</ul><br><br><br><br><br><br><br><br><br>
-			</td>
-	  </tr>
-	</table>
-	<br><br><br><br>
-	<div id = "footer"></div>
-	<footer>
-		Copyright &copy;2018 Greg Corn. All Rights Reserved &emsp;&emsp;&emsp;
-		Questions, comments, or concerns?
-		Contact: <a class = "footerLink" href = "mailto:howtodj@gregcorn.com">howtodj@gregcorn.com</a> &emsp;&emsp;&emsp;
-	</footer>
+	<h1>Streetwear Company GIF Product Example</h1>
+	<center>An example of what I referred to in my email is shown below. If you have any questions, pleas don't hesitate to ask. You can email me by replying to the email I sent you, or by clicking the profile icon below.&nbsp;&darr;</center><br><br>
+	<a href="mailto:gcorn2009@gmail.com?subject=RE:%20Streetwear%20Company%20GIF%20Product%20Example"><img class="logo" src="images/prof.png" alt="Greg Corn Logo"></a><br><br>
+	<center>
+		<img id="Jacket" src="images/Jacket.jpeg" alt="Jacket">
+		<img id="Ladder" src="images/Ladder.jpeg" alt="Ladder">
+		
+	</center>
 </body>
+<style>
+	body{
+ 		background-image: url("images/background.png");
+		color: #2B1F17;
+		font-size: 18px;
+		font-family: 'Quattrocento', serif;
+	}
+	h1{
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 60px;
+		color: #2B1F17;
+		line-height: 0.3;
+		margin-top: 50px;
+	}
+
+	#Jacket{margin: auto;}
+	#Ladder{margin: auto;}
+	.logo{
+		margin-top: 20px;
+		transition: 0.5s;
+ 		width: 128px;
+ 		height: 128px;
+    	display: block;
+		margin-left: auto;
+		margin-right: auto;
+ 	}
+ 	.logo:hover{
+ 		margin-top: 10px;
+		width: 150px;
+ 		height: 150px;
+ 		transition: 0.5s;
+ 		
+ 	}           
+</style>
+<script>
+$(document).ready(function()
+{
+    $("#Jacket").hover(
+        function()
+        {
+            $(this).attr("src", "images/Jacket.gif");
+        },
+        function()
+        {
+            $(this).attr("src", "images/Jacket.jpeg");
+        }
+    );                      
+    $("#Ladder").hover(
+        function()
+        {
+            $(this).attr("src", "images/Ladder.gif");
+        },
+        function()
+        {
+            $(this).attr("src", "images/Ladder.jpeg");
+        }                         
+    );                  
+});
+</script>
 </html>
